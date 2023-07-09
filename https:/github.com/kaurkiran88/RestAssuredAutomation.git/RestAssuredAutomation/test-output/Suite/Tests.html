@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 09 00:49:13 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (600 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.GetBoard.verifyBoardNameforGetBoard()'><b>verifyBoardNameforGetBoard</b><br>Test class: tests.GetBoard</td>
+<td></td>
+<td>0</td>
+<td>tests.GetBoard@6ccac6f4</td></tr>
+<tr>
+<td title='tests.UpdateBoardName.verifyNameUpdateforUpdateBoardName()'><b>verifyNameUpdateforUpdateBoardName</b><br>Test class: tests.UpdateBoardName</td>
+<td></td>
+<td>0</td>
+<td>tests.UpdateBoardName@438c9aa7</td></tr>
+<tr>
+<td title='tests.UpdateList.verifyNameUpdateforUpdateList()'><b>verifyNameUpdateforUpdateList</b><br>Test class: tests.UpdateList</td>
+<td></td>
+<td>0</td>
+<td>tests.UpdateList@6c8f60f3</td></tr>
+<tr>
+<td title='tests.CreateBoard.verifyStatusCodeforBoardCreation()'><b>verifyStatusCodeforBoardCreation</b><br>Test class: tests.CreateBoard</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateBoard@4733f6f5</td></tr>
+<tr>
+<td title='tests.CreateCard.verifyStatusCodeforCardCreation()'><b>verifyStatusCodeforCardCreation</b><br>Test class: tests.CreateCard</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateCard@56c8e6f0</td></tr>
+<tr>
+<td title='tests.DeleteCard.verifyStatusCodeforDeleteCard()'><b>verifyStatusCodeforDeleteCard</b><br>Test class: tests.DeleteCard</td>
+<td></td>
+<td>0</td>
+<td>tests.DeleteCard@71b6172c</td></tr>
+<tr>
+<td title='tests.GetBoard.verifyStatusCodeforGetBoard()'><b>verifyStatusCodeforGetBoard</b><br>Test class: tests.GetBoard</td>
+<td></td>
+<td>0</td>
+<td>tests.GetBoard@6ccac6f4</td></tr>
+<tr>
+<td title='tests.GetLists.verifyStatusCodeforGetLists()'><b>verifyStatusCodeforGetLists</b><br>Test class: tests.GetLists</td>
+<td></td>
+<td>0</td>
+<td>tests.GetLists@3453acd2</td></tr>
+<tr>
+<td title='tests.UpdateBoardName.verifyStatusCodeforUpdateBoardName()'><b>verifyStatusCodeforUpdateBoardName</b><br>Test class: tests.UpdateBoardName</td>
+<td></td>
+<td>0</td>
+<td>tests.UpdateBoardName@438c9aa7</td></tr>
+<tr>
+<td title='tests.UpdateList.verifyStatusCodeforUpdateList()'><b>verifyStatusCodeforUpdateList</b><br>Test class: tests.UpdateList</td>
+<td></td>
+<td>0</td>
+<td>tests.UpdateList@6c8f60f3</td></tr>
+<tr>
+<td title='tests.CreateBoard.verifyStatusLineforBoardCreation()'><b>verifyStatusLineforBoardCreation</b><br>Test class: tests.CreateBoard</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateBoard@4733f6f5</td></tr>
+<tr>
+<td title='tests.CreateCard.verifyStatusLineforCardCreation()'><b>verifyStatusLineforCardCreation</b><br>Test class: tests.CreateCard</td>
+<td></td>
+<td>0</td>
+<td>tests.CreateCard@56c8e6f0</td></tr>
+<tr>
+<td title='tests.DeleteCard.verifyStatusLineforDeleteCard()'><b>verifyStatusLineforDeleteCard</b><br>Test class: tests.DeleteCard</td>
+<td></td>
+<td>0</td>
+<td>tests.DeleteCard@71b6172c</td></tr>
+<tr>
+<td title='tests.GetBoard.verifyStatusLineforGetBoard()'><b>verifyStatusLineforGetBoard</b><br>Test class: tests.GetBoard</td>
+<td></td>
+<td>0</td>
+<td>tests.GetBoard@6ccac6f4</td></tr>
+<tr>
+<td title='tests.GetLists.verifyStatusLineforGetLists()'><b>verifyStatusLineforGetLists</b><br>Test class: tests.GetLists</td>
+<td></td>
+<td>0</td>
+<td>tests.GetLists@3453acd2</td></tr>
+<tr>
+<td title='tests.UpdateBoardName.verifyStatusLineforUpdateBoardName()'><b>verifyStatusLineforUpdateBoardName</b><br>Test class: tests.UpdateBoardName</td>
+<td></td>
+<td>0</td>
+<td>tests.UpdateBoardName@438c9aa7</td></tr>
+<tr>
+<td title='tests.UpdateList.verifyStatusLineforUpdateList()'><b>verifyStatusLineforUpdateList</b><br>Test class: tests.UpdateList</td>
+<td></td>
+<td>0</td>
+<td>tests.UpdateList@6c8f60f3</td></tr>
+<tr>
+<td title='tests.DeleteCard.verifycardNotPresentforDeleteCard()'><b>verifycardNotPresentforDeleteCard</b><br>Test class: tests.DeleteCard</td>
+<td></td>
+<td>0</td>
+<td>tests.DeleteCard@71b6172c</td></tr>
+</table><p>
+</body>
+</html>
